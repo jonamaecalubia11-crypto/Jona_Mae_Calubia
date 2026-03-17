@@ -189,5 +189,5 @@ def delete_student(id):
 # Run App
 # ----------------------
 if __name__ == '__main__':
-    init_db()
-    app.run(debug=True)
+    init_db()           # Create database if it doesn't exist
+    app.run(debug=True) # Start Flask server
